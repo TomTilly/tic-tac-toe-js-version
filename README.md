@@ -1,3 +1,3 @@
-# Tic Tac Toe in JavaScript
+# Tic-Tac-Toe in JavaScript
 
-This Tic Tac Toe game
+A responsive Tic-Tac-Toe game made with HTML, CSS, JavaScript, and jQuery.
