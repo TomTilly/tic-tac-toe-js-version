@@ -745,7 +745,7 @@ var i,
 
 	// Used for iframes
 	// See setDocument()
-	// Removing the function wrapper causes a "Permission Denied"
+	// Removing the function gameboard-wrapper causes a "Permission Denied"
 	// error in IE
 	unloadHandler = function() {
 		setDocument();
@@ -4197,7 +4197,7 @@ var rcheckableType = (/^(?:checkbox|radio)$/i);
 	support.tbody = !div.getElementsByTagName( "tbody" ).length;
 
 	// Make sure that link elements get serialized correctly by innerHTML
-	// This requires a wrapper element in IE
+	// This requires a gameboard-wrapper element in IE
 	support.htmlSerialize = !!div.getElementsByTagName( "link" ).length;
 
 	// Makes sure cloning an html5 element does not cause problems
@@ -5594,7 +5594,7 @@ jQuery.extend({
 
 					tmp.innerHTML = wrap[1] + elem.replace( rxhtmlTag, "<$1></$2>" ) + wrap[2];
 
-					// Descend through wrappers to the right content
+					// Descend through gameboard-wrappers to the right content
 					j = wrap[0];
 					while ( j-- ) {
 						tmp = tmp.lastChild;

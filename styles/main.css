@@ -1,0 +1,83 @@
+html{
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	height: 100%;
+	font-family: "Trebuchet MS", Arial, sans-serif;
+}
+
+h1 {
+	text-align: center;
+	margin: 0 0 20px;
+	font-size: 8vw;
+}
+
+#gameboard-wrapper {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50%;
+	height: 50%;
+}
+
+img {
+	width: 80%;
+	height: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+div[data-location]{
+	text-align: center;
+	position: relative;
+	width: 32%;
+	height: 32%;
+	background-color: rgba(209, 178, 158, 0.27);
+	float: left;
+}
+
+div[data-location="top-left"]{
+	border-right: 3px solid #444;
+	border-bottom: 3px solid #444;
+	border-top-left-radius: 10%;
+}
+
+div[data-location="top-middle"]{
+	border-bottom: 3px solid #444;
+}
+
+div[data-location="top-right"]{
+	border-left: 3px solid #444;
+	border-bottom: 3px solid #444;
+	border-top-right-radius: 10%;
+}
+
+div[data-location="center-middle"]{
+	border-left: 3px solid #444;
+	border-right: 3px solid #444;
+}
+
+div[data-location="bottom-left"]{
+	border-top: 3px solid #444;
+	border-right: 3px solid #444;
+	border-bottom-left-radius: 10%;
+}
+
+div[data-location="bottom-middle"]{
+	border-top: 3px solid #444;
+}
+
+div[data-location="bottom-right"]{
+	border-left: 3px solid #444;
+	border-top: 3px solid #444;
+	border-bottom-right-radius: 10%;
+}
+
+.clear{
+	clear: left;
+}
