@@ -6,6 +6,7 @@ body {
 	margin: 0;
 	height: 100%;
 	font-family: "Trebuchet MS", Arial, sans-serif;
+	text-align: center;
 }
 
 h1 {
@@ -13,6 +14,31 @@ h1 {
 	margin: 0;
 	font-size: 36px;
 	font-size: 8vmin;
+}
+
+button {
+	margin-top: 1vmin;
+	width: 20vmin; /* 200 / 980*/
+	height: 20%;
+	border-radius: 10px;
+	border: 2px solid #4d4d4d;
+	color: #1c1c1c;
+	background: linear-gradient(rgba(196, 219, 255, 0.88), rgba(128, 167, 255, 0.88));
+	font-size: 3vmin;
+}
+
+button:hover {
+	background: linear-gradient(#c4dbff, #80a7ff);
+	box-shadow: 0 0 6px #9f9f9f;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:active {
+	background: linear-gradient(#9cc3ff, #6494ff);
+	box-shadow: 0 0 8px #808080;
 }
 
 #gameboard-wrapper {
@@ -24,9 +50,6 @@ h1 {
 	transform: translate(-50%, -50%);
 	width: 50vh;
 	height: 50%;
-	/*width: 50%;
-	/*min-height: 50%;
-	height: 50%;*/
 }
 
 #gameboard-wrapper:after {
@@ -97,6 +120,8 @@ div[data-location="bottom-right"]{
 .clear{
 	clear: left;
 }
+
+/* Change border to 1px when screen gets very small */
 
 @media screen and (max-height: 300px){
 	
