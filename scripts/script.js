@@ -32,10 +32,10 @@ $(document).ready(function()
 		if(!gameOver){
 			if(currentPlayer === 1)
 			{
-
+				$(this).append('<img src="assets/x.png" />');
 			} else
 			{
-
+				$(this).append('<img src="assets/o.png" />');
 			}
 		} else
 		{
