@@ -13,7 +13,7 @@ h1 {
 	text-align: center;
 	margin: 0;
 	font-size: 36px;
-	font-size: 8vmin;
+	font-size: 8vh;
 }
 
 #Woot {
@@ -22,12 +22,12 @@ h1 {
 
 button {
 	margin-top: 1vmin;
-	width: 20vmin;
+	padding: 1vmin;
 	border-radius: 10px;
 	border: 2px solid #4d4d4d;
 	color: #1c1c1c;
 	background: linear-gradient(rgba(196, 219, 255, 0.88), rgba(128, 167, 255, 0.88));
-	font-size: 3vmin;
+	font-size: 3vh;
 }
 
 button:hover {
@@ -42,6 +42,10 @@ button:focus {
 button:active {
 	background: linear-gradient(#9cc3ff, #6494ff);
 	box-shadow: 0 0 8px #808080;
+}
+
+p {
+	font-size: 3vh;
 }
 
 #gameboard-wrapper {
