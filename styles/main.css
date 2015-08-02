@@ -16,10 +16,6 @@ h1 {
 	font-size: 8vh;
 }
 
-#Woot {
-	height: 10%
-}
-
 button {
 	margin-top: 1vmin;
 	padding: 1vmin;
@@ -87,38 +83,38 @@ div[data-location]{
 	float: left;
 }
 
-div[data-location="top-left"]{
+div[data-location="0-0"]{
 	border-right: 3px solid #444;
 	border-bottom: 3px solid #444;
 	border-top-left-radius: 10%;
 }
 
-div[data-location="top-middle"]{
+div[data-location="0-1"]{
 	border-bottom: 3px solid #444;
 }
 
-div[data-location="top-right"]{
+div[data-location="0-2"]{
 	border-left: 3px solid #444;
 	border-bottom: 3px solid #444;
 	border-top-right-radius: 10%;
 }
 
-div[data-location="center-middle"]{
+div[data-location="1-1"]{
 	border-left: 3px solid #444;
 	border-right: 3px solid #444;
 }
 
-div[data-location="bottom-left"]{
+div[data-location="2-0"]{
 	border-top: 3px solid #444;
 	border-right: 3px solid #444;
 	border-bottom-left-radius: 10%;
 }
 
-div[data-location="bottom-middle"]{
+div[data-location="2-1"]{
 	border-top: 3px solid #444;
 }
 
-div[data-location="bottom-right"]{
+div[data-location="2-2"]{
 	border-left: 3px solid #444;
 	border-top: 3px solid #444;
 	border-bottom-right-radius: 10%;
@@ -133,38 +129,38 @@ div[data-location="bottom-right"]{
 @media screen and (max-height: 300px){
 	
 	
-	div[data-location="top-left"]{
+	div[data-location="0-0"]{
 		border-right: 1px solid #444;
 		border-bottom: 1px solid #444;
 		border-top-left-radius: 10%;
 	}
 
-	div[data-location="top-middle"]{
+	div[data-location="0-1"]{
 		border-bottom: 1px solid #444;
 	}
 
-	div[data-location="top-right"]{
+	div[data-location="0-2"]{
 		border-left: 1px solid #444;
 		border-bottom: 1px solid #444;
 		border-top-right-radius: 10%;
 	}
 
-	div[data-location="center-middle"]{
+	div[data-location="1-1"]{
 		border-left: 1px solid #444;
 		border-right: 1px solid #444;
 	}
 
-	div[data-location="bottom-left"]{
+	div[data-location="2-0"]{
 		border-top: 1px solid #444;
 		border-right: 1px solid #444;
 		border-bottom-left-radius: 10%;
 	}
 
-	div[data-location="bottom-middle"]{
+	div[data-location="2-1"]{
 		border-top: 1px solid #444;
 	}
 
-	div[data-location="bottom-right"]{
+	div[data-location="2-2"]{
 		border-left: 1px solid #444;
 		border-top: 1px solid #444;
 		border-bottom-right-radius: 10%;
