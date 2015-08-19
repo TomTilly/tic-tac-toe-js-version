@@ -18,6 +18,8 @@ $(document).ready(function()
 		isTie: false,
 		mostRecentSpace: '',
 		winningPlayer: '',
+		
+		
 		gamesPlayed: '',
 		player1Wins: '',
 		player1Losses: '',
@@ -37,7 +39,6 @@ $(document).ready(function()
 			this.gameOver = false;
 			this.currentPlayersTurn = 1;
 			this.isTie = false;
-			this.mostRecentSpace = '';
 			this.mostRecentSpace = '';
 		},
 		
